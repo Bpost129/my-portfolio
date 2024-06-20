@@ -6,12 +6,15 @@
   color-scheme: light dark;
   color: var(--licorice);
   background-color: var(--linen);
+  /* background: rgb(119,51,68);
+  background: linear-gradient(90deg, rgba(119,51,68,1) 0%, rgba(245,233,226,1) 10%); */
 
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  
   --wine: #773344;
   --pale-dogwood: #E3B5A4;
   --linen: #F5E9E2;
@@ -32,6 +35,12 @@ main {
 
 body {
   margin: 0;
+  /* background-image: url('/public/cool-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0; */
 }
 
 nav {
