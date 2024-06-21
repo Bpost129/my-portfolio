@@ -35,12 +35,12 @@ main {
 
 body {
   margin: 0;
-  /* background-image: url('/public/cool-background.svg');
+  background-image: url('/portfoliocustom.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  top: 0; */
+  top: 0;
 }
 
 nav {
@@ -67,14 +67,17 @@ nav a {
   margin: 0 40px 0 0;
   font-size: 24px;
   font-weight: 650;
+  letter-spacing: -0.5px;
 }
 
 nav a:hover {
   font-weight: 900;
+  letter-spacing: -2px;
 }
 
 nav a:focus {
   font-weight: 900;
+  letter-spacing: -2px;
 }
 
 .main-body {
@@ -86,45 +89,27 @@ nav a:focus {
   margin: 50px auto;
 }
 
-svg {
-  position: fixed;
-  top: 70px;
-  left: 20px;
-  transform: rotate(-90deg);
-}
-
-circle {
-  stroke-dashoffset: 0;
-  stroke-width: 20%;
-  fill: var(--linen);
-}
-
-.bg {
-  stroke: var(--indian-red);
-}
-
-.progress {
-  stroke: var(--wine);
-  stroke-dasharray: 0, 1;
-}
-
 .author {
   display: flex;
   align-items: flex-end;
 }
 .author h1 {
   font-size: 40px;
+  letter-spacing: -3px;
 }
 
 .author p {
   margin: 0 10px 38px 0;
   font-size: 26px;
+  letter-spacing: -1.5px;
 }
 
 .desc {
   width: 520px;
   font-size: 24px;
+  letter-spacing: -0.5px;
 }
+
 .pic img {
   height: 600px;
   width: 400px;
@@ -141,15 +126,21 @@ img {
   margin: 50px auto;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   justify-content: space-around;
-  gap: 50px;
+  /* gap: 50px; */
 }
 
 section {
-  height: 90vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   scroll-snap-align: center;
-  margin: 60px 0 10px 0;
+  /* margin: 100px 0; */
+  gap: 100px;
 }
 
 .project {
@@ -157,19 +148,28 @@ section {
   flex-direction: column;
   align-items: center;
   /* justify-content: space-between; */
-  height: 85vh;
-  width: 1250px;
+  height: 40vh;
+  width: 650px;
   border: 2px solid var(--pale-dogwood);
   border-radius: 10px;
   background-color: #e3b5a45d;
-  padding: 0 0 20px 0;
-
+  padding: 0 0 0 0;
+  margin: auto 0;
 
   overflow: hidden;
 }
 
+#ad {
+  translate: 0 -160px;
+}
+
+#bd {
+  translate: 0 160px;
+}
+
 .project #project-img {
-  width: 1250px;
+  width: 650px;
+  height: 235px;
   margin: 0;
   border-radius: 6px 6px 0 0;
   border-bottom: 1px solid var(--pale-dogwood);
@@ -189,28 +189,35 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto 0;
+  margin: 10px 0 0 0;
 }
 
 .project-desc h1 {
-  font-size: 50px;
+  letter-spacing: -3px;
+  font-size: 40px;
   font-weight: 650;
+  margin: 36px 0 0 0;
 }
 
 .project-desc p {
-  font-size: 22px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  width: 450px;
+  font-size: 18px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 #github-link {
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   align-self: flex-start;
-  margin-left: 20px;
-
+  margin: 0 0 10px 10px;
+  position: fixed;
+  bottom: 0;
   background-color: var(--indian-red);
   border-radius: 50%;
   transition: transform 500ms, box-shadow 500ms ease-in-out;
@@ -230,9 +237,9 @@ section {
 }
 
 .contact img {
-  height: 60px;
-  width: 60px;
-  margin: 0 20px;
+  height: 50px;
+  width: 50px;
+  margin: 0 15px 15px 15px;
 }
 
 .skills {
@@ -246,12 +253,14 @@ section {
 .skills h1 {
   font-size: 50px;
   font-weight: 650;
+  letter-spacing: -3px;
 }
 
 .skills-list {
   display: flex;
   gap: 50px;
   font-size: 26px;
+  letter-spacing: -0.5px;
 }
 
 .skills-list div {
