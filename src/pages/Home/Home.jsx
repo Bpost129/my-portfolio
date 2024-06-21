@@ -12,11 +12,11 @@ const Home = () => {
       <section className="main-body">
         <div className="bio">
           <div className="author">
-            <p>Hi, my name's</p>
+            <p>Hi, my name&apos;s</p>
             <h1>Billy Post</h1>
           </div>
           <div className="desc">
-            I'm a software engineer that loves the little details and is always up for a good challenge. 
+            I&apos;m a software engineer that loves the little details and is always up for a good challenge. 
           </div>
         </div>
         <div className="pic">
