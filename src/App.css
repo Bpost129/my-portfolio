@@ -267,3 +267,9 @@ section {
   text-align: center;
 }
 
+.skills-list p {
+  background-color: rgba(66, 66, 66, 0.211);
+  padding: 5px 12px 30px 12px;
+  border-radius: 8px;
+}
+
