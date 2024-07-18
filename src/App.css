@@ -265,11 +265,14 @@ section {
 
 .skills-list div {
   text-align: center;
+  width: 225px;
 }
 
 .skills-list p {
-  background-color: rgba(66, 66, 66, 0.211);
-  padding: 5px 12px 30px 12px;
+  background-color: var(--pale-dogwood);
+  padding: 12px 12px 30px 12px;
   border-radius: 8px;
+  /* font-weight: 400; */
+
 }
 

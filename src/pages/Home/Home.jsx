@@ -27,20 +27,20 @@ const Home = () => {
         <h1>Skills</h1>
         <div className="skills-list">
           <div>
-            <p>HTML5</p>
-            <p>CSS3</p>
+            <p><img src='https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608' style={{height: '100px', width: '200px'}} />HTML5</p>
+            <p><img src='https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608' style={{height: '100px', width: '200px'}} />CSS3</p>
           </div>
           <div>
-            <p>JavaScript</p>
-            <p>Python</p>
+            <p><img src='https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608' style={{height: '100px', width: '200px'}} />JavaScript</p>
+            <p><img src='https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608' style={{height: '100px', width: '200px'}} />Python</p>
           </div>
           <div>
-            <p>React</p>
-            <p>Django</p>
+            <p><img src='https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608' style={{height: '100px', width: '200px'}} />React</p>
+            <p><img src='https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608' style={{height: '100px', width: '200px'}} />Django</p>
           </div>
           <div>
-            <p>MongoDB</p>
-            <p>PostgreSQL</p>
+            <p><img src='https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608' style={{height: '100px', width: '200px'}} />MongoDB</p>
+            <p><img src='https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608' style={{height: '100px', width: '200px'}} />PostgreSQL</p>
           </div>
         </div>
       </section>
