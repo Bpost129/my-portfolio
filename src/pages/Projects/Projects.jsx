@@ -22,6 +22,7 @@ const Projects = () => {
             <div className="project-desc">
               <h1>DittoDeal</h1>
               <p>Full MERN stack marketplace application</p>
+              <p className='contributor'>Contributor: Brandon Sears</p>
             </div>
             <a id="github-link" target="_blank" href="https://github.com/Bpost129/dittodeal-front-end" style={{backgroundImage: `url(${github})`}}></a>
           </div>

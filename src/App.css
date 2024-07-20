@@ -206,6 +206,15 @@ section {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0;
+  margin-top: 5px;
+}
+
+/* .project-desc:nth-child(4) {
+  margin-top: 5px;
+} */
+
+.contributor {
+  margin: 0;
 }
 
 #github-link {
