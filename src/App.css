@@ -45,6 +45,7 @@ body {
 
 nav {
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   gap: 10px;
@@ -56,9 +57,31 @@ nav {
   height: 200px;
   top: 0;
   right: 0;
-  z-index: 10;
+  z-index: 1;
   rotate: 45deg;
   transform: translate(125px, -175px);
+}
+
+.resume-img {
+  background-color: #D44D5C;
+  /* padding: 40px; */
+  /* border-radius: 40%; */
+  height: 50px;
+  width: 50px;
+  margin-bottom: 0;
+  transform: translate(-140px, 25px) rotate(-45deg);
+}
+
+.tabs {
+  display: flex;
+  transform: translate(-25px, 30px);
+  width: 250px;
+  text-align: center;
+}
+
+.tabs p {
+  text-align: center;
+  width: 125px;
 }
 
 nav a {
@@ -68,15 +91,18 @@ nav a {
   font-size: 24px;
   font-weight: 650;
   letter-spacing: -0.5px;
+  width: 100px;
 }
 
 nav a:hover {
   font-weight: 900;
+  width: 85px;
   letter-spacing: -2px;
 }
 
 nav a:focus {
   font-weight: 900;
+  width: 85px;
   letter-spacing: -2px;
 }
 
@@ -284,4 +310,5 @@ section {
   /* font-weight: 400; */
 
 }
+
 
