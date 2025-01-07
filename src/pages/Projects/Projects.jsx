@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import dittoDeal from '../../assets/dittodealss.png'
 import greenRoom from '../../assets/greenroomss.png'
 import readit from '../../assets/readitss.png'
@@ -5,10 +7,18 @@ import blackjack from '../../assets/wwblackjackss.png'
 import github from '/github.png'
 
 const Projects = () => {
+  const [showInfo, setShowInfo] = useState(false)
+
+  const handleShow = async () => {
+    setShowInfo(!showInfo)
+  }
+
   return (
     <>
       <div className="project-body">
         <section>
+
+          {!showInfo &&
           <div className="project" id="ad">
             <a target="_blank" href="https://green-room-bp.fly.dev/"><img id="project-img" src={greenRoom} alt="1"/></a>
             <div className="project-desc">
@@ -17,6 +27,12 @@ const Projects = () => {
             </div>
             <a id="github-link" target="_blank" href="https://github.com/Bpost129/green-room" style={{backgroundImage: `url(${github})`}}></a>
           </div>
+
+          /* create components for project view and more info */
+
+
+          }
+
           <div className="project" id="bd">
             <a target="_blank" href="https://dittodeal.netlify.app/"><img id="project-img" src={dittoDeal} alt="2"/></a>
             <div className="project-desc">
