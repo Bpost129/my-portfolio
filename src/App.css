@@ -1,19 +1,39 @@
 :root {
   font-family: "Red Hat Display", sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 600;
 
   color-scheme: light dark;
-  color: var(--licorice);
-  background-color: var(--linen);
+  color: var(--ivory);
+  background-color: var(--prblue);
   /* background: rgb(119,51,68);
   background: linear-gradient(90deg, rgba(119,51,68,1) 0%, rgba(245,233,226,1) 10%); */
-
+  
+  background-image: url('./assets/cbg2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  --bittersweet: #E3655B;
+  --maize: #FDE75F;
+  --ivory: #FBFFF1;
+  --skye: #6CCFF6;
+  --prblue: #253d5b;
+  
+  --tea: #C3DBC5;
+  --taupe: #795C5F;
+  --vanilla: #F2E29F;
+  --umber: #725E54;
+  --sage: #C9C19F;
+  --nyanza: #EDF7D2;
+  --viridian: #2A7F62;
+  
   
   --wine: #773344;
   --pale-dogwood: #E3B5A4;
@@ -35,61 +55,60 @@ main {
 
 body {
   margin: 0;
-  background-image: url('/portfoliocustom.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   top: 0;
 }
 
 nav {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  /* flex-direction: column; */
+  align-items: center;
   justify-content: center;
   gap: 10px;
-  background-color: #773344;
+  background-color: var(--ivory);
+  /* background-color: var(--wine) */
   scroll-snap-align: start;
   position: fixed;
-  width: 300px;
+  width: 180px;
   padding: 0 100px;
-  height: 200px;
+  height: 80px;
+  border-radius: 0 0 70px 70px;
+  margin-right: 20px;
   top: 0;
   right: 0;
   z-index: 1;
-  rotate: 45deg;
-  transform: translate(125px, -175px);
+  /* rotate: 45deg; */
+  transform: translate(0);
 }
 
 .resume-img {
-  background-color: #D44D5C;
+  /* background-color: #D44D5C; */
   /* padding: 40px; */
   /* border-radius: 40%; */
   height: 50px;
   width: 50px;
-  margin-bottom: 0;
-  transform: translate(-140px, 25px) rotate(-45deg);
+  /* margin-bottom: 0; */
+  transform: translate(-140px, 40px) rotate(-45deg);
+
 }
 
 .tabs {
   display: flex;
-  transform: translate(-25px, 30px);
+  /* transform: translate(-25px, 30px); */
   width: 250px;
   text-align: center;
 }
 
-.tabs p {
+nav p {
   text-align: center;
-  width: 125px;
+  width: 100px;
 }
 
 nav a {
   text-decoration: none;
-  color: var(--linen);
+  color: var(--prblue);
   margin: 0 40px 0 0;
-  font-size: 24px;
-  font-weight: 650;
+  font-size: 28px;
+  font-weight: 750;
   letter-spacing: -0.5px;
   width: 100px;
 }
@@ -111,7 +130,7 @@ nav a:focus {
   align-items: center;
   justify-content: center;
   width: 1500px;
-  gap: 450px;
+  gap: 250px;
   margin: 50px auto;
 }
 
@@ -120,19 +139,19 @@ nav a:focus {
   align-items: flex-end;
 }
 .author h1 {
-  font-size: 40px;
+  font-size: 44px;
   letter-spacing: -3px;
 }
 
 .author p {
   margin: 0 10px 38px 0;
-  font-size: 26px;
+  font-size: 34px;
   letter-spacing: -1.5px;
 }
 
 .desc {
-  width: 520px;
-  font-size: 24px;
+  width: 558px;
+  font-size: 26px;
   letter-spacing: -0.5px;
 }
 
@@ -145,6 +164,7 @@ img {
   width: 500px;
   height: 500px;
   border-radius: 6px;
+  /* border: 2px solid white; */
 }
 
 .project-body {
@@ -176,9 +196,11 @@ section {
   /* justify-content: space-between; */
   height: 40vh;
   width: 650px;
-  border: 2px solid var(--pale-dogwood);
+  border: 2px solid var(--taupe);
   border-radius: 10px;
-  background-color: #e3b5a45d;
+  color: var(--prblue);
+  background-color: var(--ivory);
+  /* background-color: #e3b5a45d; */
   padding: 0 0 0 0;
   margin: auto 0;
 
@@ -198,7 +220,7 @@ section {
   height: 235px;
   margin: 0;
   border-radius: 6px 6px 0 0;
-  border-bottom: 1px solid var(--pale-dogwood);
+  border-bottom: 1px solid var(--taupe);
 
   transition: transform 1500ms, filter 2000ms ease-in-out;
   filter: blur(2px);
@@ -244,8 +266,8 @@ section {
 }
 
 #github-link {
-  height: 32px;
-  width: 32px;
+  height: 34px;
+  width: 34px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -253,14 +275,15 @@ section {
   margin: 0 0 10px 10px;
   position: fixed;
   bottom: 0;
-  background-color: var(--indian-red);
+  background-color: var(--bittersweet);
   border-radius: 50%;
+  border: 0.5px solid var(--ivory);
   transition: transform 500ms, box-shadow 500ms ease-in-out;
 }
 
 #github-link:hover {
   transform: scale(1.2), translate(5px, 0);
-  box-shadow: -1px 2px 3px var(--wine);
+  box-shadow: -1px 2px 3px black;
 }
 
 .contact {
@@ -269,6 +292,12 @@ section {
   align-items: center;
   justify-content: flex-end;
   gap: 20px;
+}
+
+.contact div {
+  background-color: var(--ivory);
+  padding: 24px 10px 0 10px;
+  border-radius: 50px 50px 0 0;
 }
 
 .contact img {
@@ -304,10 +333,11 @@ section {
 }
 
 .skills-list p {
-  background-color: var(--pale-dogwood);
+  background-color: var(--ivory);
+  color: var(--prblue);
   padding: 20px 12px 30px 12px;
-  border-radius: 8px;
-  /* font-weight: 400; */
+  border-radius: 70px;
+  font-weight: 700;
 
 }
 
