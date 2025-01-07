@@ -20,12 +20,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
+  /* third and final theme */
   --bittersweet: #E3655B;
   --maize: #FDE75F;
   --ivory: #FBFFF1;
   --skye: #6CCFF6;
   --prblue: #253d5b;
   
+  /* theme two */
   --tea: #C3DBC5;
   --taupe: #795C5F;
   --vanilla: #F2E29F;
@@ -34,7 +36,7 @@
   --nyanza: #EDF7D2;
   --viridian: #2A7F62;
   
-  
+  /* theme one*/
   --wine: #773344;
   --pale-dogwood: #E3B5A4;
   --linen: #F5E9E2;
@@ -42,9 +44,9 @@
   --indian-red: #D44D5C;
 }
 
-html {
+/* html {
   scroll-snap-type: y mandatory;
-}
+} */
 
 main {
   display: flex;
@@ -65,11 +67,12 @@ nav {
   justify-content: center;
   gap: 10px;
   background-color: var(--ivory);
+  text-align: center;
   /* background-color: var(--wine) */
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
   position: fixed;
   width: 180px;
-  padding: 0 100px;
+  padding: 0 100px 0 80px;
   height: 80px;
   border-radius: 0 0 70px 70px;
   margin-right: 20px;
@@ -105,24 +108,30 @@ nav p {
 
 nav a {
   text-decoration: none;
+  text-align: center;
   color: var(--prblue);
   margin: 0 40px 0 0;
+  padding: 4px 12px;
   font-size: 28px;
-  font-weight: 750;
-  letter-spacing: -0.5px;
+  font-weight: 900; 
+  letter-spacing: -2px;
   width: 100px;
+  transition: transform 200ms ease-in;
+  border-radius: 70px;
+  
 }
 
 nav a:hover {
-  font-weight: 900;
-  width: 85px;
-  letter-spacing: -2px;
+  
+  background-color: var(--prblue);
+  color: var(--ivory);
+  
 }
 
 nav a:focus {
-  font-weight: 900;
-  width: 85px;
-  letter-spacing: -2px;
+  
+  background-color: var(--prblue);
+  color: var(--ivory);
 }
 
 .main-body {
@@ -196,8 +205,8 @@ section {
   /* justify-content: space-between; */
   height: 40vh;
   width: 650px;
-  border: 2px solid var(--taupe);
-  border-radius: 10px;
+  border: 10px solid var(--skye);
+  border-radius: 70px;
   color: var(--prblue);
   background-color: var(--ivory);
   /* background-color: #e3b5a45d; */
@@ -220,7 +229,7 @@ section {
   height: 235px;
   margin: 0;
   border-radius: 6px 6px 0 0;
-  border-bottom: 1px solid var(--taupe);
+  border-bottom: 1px solid var(--skye);
 
   transition: transform 1500ms, filter 2000ms ease-in-out;
   filter: blur(2px);
@@ -287,6 +296,7 @@ section {
 }
 
 .contact {
+  bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
