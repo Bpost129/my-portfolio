@@ -1,10 +1,8 @@
 import selfie from '../../assets/thisiswhere.png'
 
-// import styles from './About.module.css'
-
 const About = () => {
   return (
-    <section className="main-body">
+    <section className="about-body">
       <div className="bio">
         <div className="author">
           <p>Hi, my name&apos;s</p>

@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom"
 
-// import doc from '../../assets/docie1.png'
-
 const NavBar = () => {
   return (
     <nav>

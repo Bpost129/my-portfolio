@@ -2,8 +2,6 @@ import linkedin from '../../assets/linkedin.png'
 import github from '/github.png'
 import email from '../../assets/email.png'
 
-// import styles from './Contact.module.css'
-
 const Contact = () => {
   return (
     <section className="contact">
