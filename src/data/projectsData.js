@@ -24,7 +24,7 @@ const projectsData = [
   {
     id: 3,
     title: 'Readit',
-    description: 'Simple social media app using MongoDB and Javascript',
+    description: 'Simple social media app using Javascript and MongoDB',
     image: readit,
     repositoryLink: 'https://github.com/Bpost129/readit',
     deploymentLink: 'https://readit-bp.fly.dev/posts'
@@ -32,7 +32,7 @@ const projectsData = [
   {
     id: 4,
     title: 'Wild West Blackjack',
-    description: 'Blackjack game composed of Javascript, HTML and CSS',
+    description: 'Blackjack game composed of CSS, HTML, and Javascript',
     image: blackjack,
     repositoryLink: 'https://github.com/Bpost129/blackjack-project',
     deploymentLink: 'https://blackjack-bp.netlify.app/'
