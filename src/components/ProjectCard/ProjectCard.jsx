@@ -15,6 +15,11 @@ const ProjectCard = ({ project }) => {
         <div className="project-desc">
           <h1>{project.title}</h1>
           <p>{project.description}</p>
+          <div className='tech-list'>
+            {project.tech.map(te => 
+              <span key={te.id}>{te}</span>
+            )}
+          </div>
         </div>
       </div>
     </div>

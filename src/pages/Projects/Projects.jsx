@@ -17,3 +17,16 @@ const Projects = () => {
 }
 
 export default Projects
+
+
+
+
+
+// ********************** //
+
+
+
+// *******  change project title to navbar style, give hover effect to reveal better description, perhaps with tech "badges"  ******* //
+
+
+// ********************** //
