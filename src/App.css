@@ -294,7 +294,7 @@ section {
   border-radius: 6px 6px 0 0;
   border-bottom: 1px solid var(--skye);
 
-  transition: transform 1500ms, filter 2000ms ease-in-out;
+  transition: transform 1000ms, filter 1250ms ease-in-out;
   filter: blur(2px);
   transform: scale(1.2);
 }
