@@ -26,7 +26,10 @@ export default Projects
 
 
 
-// *******  change project title to navbar style, give hover effect to reveal better description, perhaps with tech "badges"  ******* //
+// *******  update aboutMe, skills list, project descriptions, ? Contact Form ? ******* //
 
+// *******  check outcomes resources  ******* //
+
+// *******  start a resume template  ******* //
 
 // ********************** //
