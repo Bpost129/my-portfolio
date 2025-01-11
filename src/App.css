@@ -8,9 +8,9 @@
   background-color: var(--prblue);
   
   background-image: url('./assets/cbg2.png');
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position:center;
-  background-size: cover;
+  background-size: 100% auto;
   background-attachment:fixed;
   
   
@@ -443,7 +443,7 @@ section {
 
 .skills h1 {
   font-size: 60px;
-  font-weight: 650;
+  font-weight: 800;
   letter-spacing: -3px;
 }
 
