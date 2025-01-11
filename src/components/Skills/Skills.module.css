@@ -1,0 +1,33 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills h1 {
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -3px;
+}
+
+.skillsList {
+  display: flex;
+  gap: 50px;
+  font-size: 26px;
+  letter-spacing: -0.5px;
+}
+
+.skillsList div {
+  text-align: center;
+  width: 225px;
+}
+
+.skillsList p {
+  background-color: var(--ivory);
+  color: var(--prblue);
+  padding: 20px 12px 30px 12px;
+  border-radius: 70px;
+  font-weight: 700;
+}

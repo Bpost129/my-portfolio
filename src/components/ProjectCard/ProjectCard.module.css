@@ -1,0 +1,143 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 84px 0;
+}
+
+.projectImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 225px;
+  width: 650px;
+  border: 20px solid var(--skye);
+  border-radius: 70px;
+  color: var(--prblue);
+  background-color: var(--ivory);
+  padding: 0 0 0 0;
+  margin: auto 0;
+  overflow: hidden;
+}
+
+.projectInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#ad {
+  translate: 200px 0;
+}
+
+#bd {
+  translate: -200px 0;
+}
+
+.projectImgContainer #project-img {
+  width: 650px;
+  height: 235px;
+  margin: 0;
+  border-radius: 6px 6px 0 0;
+  border-bottom: 1px solid var(--skye);
+
+  transition: transform 1000ms, filter 1250ms ease-in-out;
+  filter: blur(2px);
+  transform: scale(1.2);
+}
+
+.projectImgContainer:hover #project-img {
+  filter: blur(0);
+  transform: scale(1);
+}
+
+.projectDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  width: 580px;
+  margin: -10px 0 0 -10px;
+  padding: 0 20px;
+  background-color: var(--ivory);
+  color: var(--prblue);
+  border-radius: 70px;
+  overflow: hidden;
+  transition: height 400ms ease-in-out;
+}
+
+.projectDesc:hover {
+  height: 350px;
+}
+
+.projectDesc h1 {
+  letter-spacing: -3px;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 30px 0 25px 0;
+}
+
+.projectDesc p {
+  letter-spacing: -0.5px;
+  text-align: center;
+  width: 450px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 90%;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.techList span {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: var(--ivory);
+  padding: 1px 10px;
+  margin: 0 3px;
+  border-radius: 70px;
+}
+
+.projectLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--maize);
+  height: 90px;
+  width: 220px;
+  border-radius: 70px;
+  margin: 0px -75px 0 0;
+  z-index: 2;
+  transition: transform 500ms, box-shadow 500ms ease-in-out;
+}
+
+.projectLink:hover {
+  transform: scale(1.05) translate(5px, 0);
+  box-shadow: 1px 2px 3px black;
+}
+
+.contributor {
+  margin: 0;
+}
+
+#githubLink {
+  height: 65px;
+  width: 185px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position:absolute;
+  background-color: var(--bittersweet);
+  border-radius: 70px;
+  border: 0.5px solid var(--maize);
+}

@@ -1,10 +1,10 @@
-// import styles from './Skills.module.css'
+import styles from './Skills.module.css'
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className={styles.skills}>
       <h1>Skills</h1>
-      <div className="skills-list">
+      <div className={styles.skillsList}>
         <div>
           <p><img src='logo-css.png' style={{height: '100px', width: '125px', margin: '0 10px'}} />CSS3</p>
           <p><img src='logo-html.png' style={{height: '100px', width: '125px'}} />HTML5</p>
