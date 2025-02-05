@@ -27,7 +27,7 @@ const projectsData = [
     id: 3,
     title: 'Readit',
     description: 'Simple social media app using Javascript and MongoDB',
-    tech: ['JavaScript', 'EJS', 'Mongoose', 'MongoDB', 'Express', 'Passport', 'Node.js'],
+    tech: ['EJS', 'Mongoose', 'MongoDB', 'Express', 'Passport', 'Node.js'],
     image: readit,
     repositoryLink: 'https://github.com/Bpost129/readit',
     deploymentLink: 'https://readit-bp.fly.dev/posts'
