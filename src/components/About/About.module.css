@@ -7,6 +7,13 @@
   margin: 50px auto;
 }
 
+.bio {
+  background-color: var(--ivory);
+  color: var(--prblue);
+  padding: 40px;
+  border-radius: 70px;
+}
+
 .author {
   display: flex;
   align-items: flex-end;
