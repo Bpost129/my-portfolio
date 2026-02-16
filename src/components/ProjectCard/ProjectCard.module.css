@@ -75,7 +75,7 @@
   color: var(--prblue);
   border-radius: 70px;
   overflow: hidden;
-  transition: height 800ms ease-in-out;
+  transition: height 700ms ease-in-out;
 }
 
 /* .projectDesc:hover {
