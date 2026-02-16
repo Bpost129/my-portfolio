@@ -48,10 +48,19 @@
   transform: scale(1.2);
 }
 
-.projectImgContainer:hover #project-img {
+.projectContainer:hover  #project-img, .projectDesc {
   filter: blur(0);
   transform: scale(1);
 }
+
+.projectContainer:hover  .projectDesc {
+  height: 325px;
+}
+
+/* .projectImgContainer:hover #project-img {
+  filter: blur(0);
+  transform: scale(1);
+} */
 
 .projectDesc {
   display: flex;
@@ -66,12 +75,12 @@
   color: var(--prblue);
   border-radius: 70px;
   overflow: hidden;
-  transition: height 400ms ease-in-out;
+  transition: height 800ms ease-in-out;
 }
 
-.projectDesc:hover {
+/* .projectDesc:hover {
   height: 350px;
-}
+} */
 
 .projectDesc h1 {
   letter-spacing: -3px;

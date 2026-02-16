@@ -7,6 +7,15 @@ import blackjack from '../assets/wwblackjackss.png'
 const projectsData = [
   {
     id: 1,
+    title: 'Boardum',
+    description: 'Lightweight kanban board made with React',
+    tech: ['CSS', 'HTML', 'JavaScript', 'Mongoose', 'MongoDB', 'Express', 'Node.js', 'React', 'JSON Web Tokens'],
+    image: dittoDeal,
+    repositoryLink: 'https://github.com/Bpost129/boardum-front-end',
+    deploymentLink: 'https://boardum-bp.netlify.app/'
+  },
+  {
+    id: 2,
     title: 'DittoDeal',
     description: 'Full MERN stack marketplace application with a pokemon theme. As you\'ll see you can sell more than just pokemon cards, but who wants that?',
     tech: ['CSS', 'HTML', 'JavaScript', 'Mongoose', 'MongoDB', 'Express', 'Node.js', 'React', 'JSON Web Tokens'],
@@ -15,7 +24,7 @@ const projectsData = [
     deploymentLink: 'https://dittodeal.netlify.app/'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Green Room',
     description: 'Full CRUD application using Django',
     tech: ['CSS', 'HTML', 'Python', 'PostgreSQL', 'Django', 'Docker'],
@@ -24,7 +33,7 @@ const projectsData = [
     deploymentLink: 'https://green-room-bp.fly.dev/'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Readit',
     description: 'Simple social media app using Javascript and MongoDB',
     tech: ['EJS', 'Mongoose', 'MongoDB', 'Express', 'Passport', 'Node.js'],
@@ -33,7 +42,7 @@ const projectsData = [
     deploymentLink: 'https://readit-bp.fly.dev/posts'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Wild West Blackjack',
     description: 'Blackjack game composed of CSS, HTML, and Javascript',
     tech: ['CSS', 'HTML', 'JavaScript'],
