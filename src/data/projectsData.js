@@ -2,7 +2,7 @@ import blackjack from '../assets/wwblackjackss.png'
 import readit from '../assets/readitss.png'
 import greenRoom from '../assets/greenroomss.png'
 import dittoDeal from '../assets/dittodealss.png'
-import boardum from '../assets/boardum.png'
+// import boardum from '../assets/boardum.png'
 import boardum2 from '../assets/boardum2.png'
 // import github from './github.png'
 
