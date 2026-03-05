@@ -10,8 +10,8 @@ const projectsData = [
   {
     id: 1,
     title: 'Boardum',
-    description: 'Lightweight kanban board made with React',
-    tech: ['CSS', 'HTML', 'JavaScript', 'Mongoose', 'MongoDB', 'Express', 'Node.js', 'React', 'JSON Web Tokens'],
+    description: '🚨Under Construction!🚨 \nLightweight kanban board made with React',
+    tech: ['React', 'dnd kit', 'MongoDB', 'Node.js', 'Express', 'JSON Web Tokens'],
     image: boardum2,
     repositoryLink: 'https://github.com/Bpost129/boardum-front-end',
     deploymentLink: 'https://boardum-bp.netlify.app/'
