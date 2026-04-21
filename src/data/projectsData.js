@@ -10,7 +10,7 @@ const projectsData = [
   {
     id: 1,
     title: 'Boardum',
-    description: 'I doubt anyone is seeing this considering my online presence is minimal, but if you are, I feel obligated to share that this project marks a turning point in my development journey. After every new component or feature I implemented, I looked back at my work with a sense of pride, saying to myself, "I did that!" Then, I began testing dnd-kit, along with attempting to use help of the coding agents for the first time. Once all was said and done, I looked back at the work that had been created with indifference, saying to myself, "I didn\'t really do anything." In short, that feeling, mixed with numerous linkedIn posts saying "iT wAs NeVeR aBoUt CoDiNg" make me terribly unenthusiastic about a future in software development. \n\nAs much of a pain as CSS can be, I really do enjoy spending time making projects visually appealing. Some of these projects were obviously more focused on functionality rather than presentation, but if you like what you see or think I have some potential, talk to me about a career in design!  \n\n🚨Under Construction!🚨 \nLightweight kanban board made with React',
+    description: '🚨Under Construction!🚨 \nLightweight kanban board made with React',
     tech: ['React', 'dnd kit', 'MongoDB', 'Node.js', 'Express', 'JSON Web Tokens'],
     image: boardum2,
     repositoryLink: 'https://github.com/Bpost129/boardum-front-end',

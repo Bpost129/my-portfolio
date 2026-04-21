@@ -54,7 +54,7 @@
 }
 
 .projectContainer:hover  .projectDesc {
-  height: 875px;
+  height: 375px;
 }
 
 /* .projectImgContainer:hover #project-img {
